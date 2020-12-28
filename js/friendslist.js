@@ -25,17 +25,15 @@ function postChat() {
 
 function botAnswer() {
 	
-	
 	// create a P tag to become the post
 	let botPost = document.createElement( "P" );
 	
-	let aArray = ["Hej Marcus" , "Bara bra. Hur är det själv?" , "Trevlig att höra :)" "Ett kilo mjöl"];
+	let aArray = ["Hej Marcus" , "Bara bra. Hur är det själv?" , "Trevlig att höra :)" , "Ett kilo mjöl"];
 
 	let randomNumber = Math.floor(Math.random() * aArray.length)
 	
 	//but now we use the data instead
 	let botContent = aArray[randomNumber];
-	
 	
 	
 	//set the text as content
@@ -44,7 +42,6 @@ function botAnswer() {
 	botPost.appendChild( botText );
 	// give the P tag a class for the bot
 	botPost.classList.add( "botPost" );
-	
 	// get the chatWindow and add the Post to it
 	document.getElementById( "chatWindow" ).appendChild( botPost );
 
