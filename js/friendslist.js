@@ -31,7 +31,7 @@ function botAnswer() {
 	
 	let aArray = ["Hej Marcus" , "Bara bra. Hur är det själv?" , "Trevlig att höra :)" "Ett kilo mjöl"];
 
-	let randomNumber = Math.floor(Math.random() * aArray.length)
+	let randomNumber = Math.floor(Math.random() * aArray.length
 	
 	//but now we use the data instead
 	let botContent = aArray[randomNumber];
