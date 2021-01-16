@@ -256,9 +256,20 @@ footer.footer-area .social a > i:hover {
 .site-main .site-banner {
     max-width: 100%;
 }
+.site-main .site-banner .site-title h1{
+	font-size: 2rem;
+}
+.site-main .project-area .title-text h1{
+	font-size: 25px;
+}
 
 @media only screen and (max-width: 320px)
 .site-main .site-banner {
     max-width: 100%;
 }
-
+.site-main .site-banner .site-title h1{
+	font-size: 2rem;
+}
+.site-main .project-area .title-text h1{
+	font-size: 25px;
+}
