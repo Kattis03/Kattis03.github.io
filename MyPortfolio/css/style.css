@@ -247,8 +247,8 @@ footer.footer-area .social a > i:hover {
     max-width: 100%;
 }
 
+
 @media only screen and (max-width: 425px)
-.col-md-12 {
-    flex: 0 0 50%;
+.site-main .site-banner {
     max-width: 100%;
 }
