@@ -240,3 +240,15 @@ footer.footer-area .social a > i:hover {
 }
 
 /* End Footer */ 
+
+@media only screen and (max-width: 992px)
+.col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 425px)
+.col-md-12 {
+    flex: 0 0 50%;
+    max-width: 100%;
+}
