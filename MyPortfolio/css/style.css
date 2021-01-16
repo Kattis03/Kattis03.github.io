@@ -1,0 +1,244 @@
+
+/* import fonts from fonts.css file */ 
+@import url(./fonts.css);
+
+
+/* css variables */ 
+@import url(./partials/_variables.css);
+
+/* import global styling */ 
+@import url(./partials/_global.css);
+
+
+/* start navigation */ 
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 20rem ;
+}
+
+.header_area .main-menu .navbar img{
+    height: 25px;
+    width: 25px;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px var(--lato);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+/* end navigation */ 
+
+
+
+
+/* Banner Area */ 
+
+.site-main .site-banner {
+    background: url(../img/background.jpg) no-repeat 100%;
+    padding-bottom: 9rem;
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 15%;
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+    color: whitesmoke;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 1rem 0;
+    width: 90rem;
+    height: 90%
+}
+
+/* End Banner Area */
+
+
+
+
+/* Start About Area */ 
+
+.site-main .about-area{
+    padding: 15rem 5rem;
+}
+
+.site-main .about-area .about-image >img{
+    border-radius: 4%;
+    position: relative;
+    height: -webkit-fill-available;
+    margin-left: 6rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px var(--lato);
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+/* End About Area */ 
+
+
+
+/* Project Area */ 
+
+.site-main .project-area{
+    padding: 8rem 0;
+}
+
+.site-main .project-area .project-title h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--lato);
+    text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project > .title h4{
+    font: normal 700 25px/12px var(--lato);
+    align-content: center;
+}
+
+.site-main .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+
+/* End Project Area */ 
+
+
+
+
+/* Skills Area */ 
+
+.site-main .services-area{
+    padding: 4rem 2rem;
+}
+
+.site-main .services-area .services-title{
+    padding: 0 10rem;
+}
+
+.site-main .services-area .services-title h1{
+    font-size: 35px;
+}
+
+.site-main > .services-area .services{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 1rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main > .services-area .services:hover{
+    box-shadow: var(--box-shadow);
+    transform: scale(1.2);
+}
+
+.site-main > .services-area .services img{
+    height: 150px !important; 
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+
+/* End Skills Area */ 
+
+
+
+/* Footer Area */ 
+
+footer.footer-area{
+    padding-top: 5rem;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    background: url(../img/footer-bg.png) no-repeat;
+    display: table-footer-group;
+}
+
+footer.footer-area .social h5{
+    font: normal 500 23px/ 30px var(--lato);
+}
+
+footer.footer-area .social a > i{
+    font-size:22px;
+    padding: 2rem;
+    color: var(--border-color);
+}
+
+footer.footer-area .social a:hover > i{
+    color: var(--primary-color);
+}
+
+footer.footer-area img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#map{
+    width: 90%;
+    padding-bottom: 3rem;
+}
+footer.footer-area .title-text{
+    font-size: 35px;
+    text-align: center;
+}
+
+
+footer.footer-area .social a > i {
+    font-size: 22px;
+    padding: 2rem;
+    color: #ffc107a8;
+}
+
+footer.footer-area .social a > i:hover {
+    color: #ffc107a8;
+    transform:scale(1.5);
+}
+
+/* End Footer */ 

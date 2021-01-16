@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="Welcome to my UX Design portfolio webpage. Check out the projects I have worked on and keep in touch if you want to talk about UX and UI." name="description">
+	<meta content="katarina skarbova, portfolio, ux design portfolio, ux/ui, user experience" name="keywords">
+
+    <title>Katarina Skarbova</title>
+
+
+    <!--  Bootstrap css file  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!--  font awesome icons  -->
+    <link rel="stylesheet" href="./css/all.min.css">
+
+
+    <!--  Magnific Popup css file  -->
+    <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css">
+
+
+    <!--  Owl-carousel css file  -->
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.theme.default.min.css">
+
+
+    <!--  custom css file  -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--  Responsive css file  -->
+    <link rel="stylesheet" href="./css/responsive.css">
+
+</head>
+
+<body>
+
+
+    <!--  ======================= Start Header Area ============================== -->
+
+    <header class="header_area">
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img src="./img/logoK.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#about-me">About me <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#my-work">My work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#resume">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#my-skills">My skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!--  ======================= End Header Area ============================== -->
+
+    <!--  ======================= Start Main Area ================================ -->
+    <main class="site-main">
+
+
+        <!--  ======================= Start Banner Area =======================  -->
+        <section class="site-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 site-title">
+                        <h3 class="title-text">Hi</h3>
+                        <h1 class="title-text text-uppercase">I am Katarina</h1>
+                        <h4 class="title-text text-uppercase">UX Researcher and Experience Designer</h4>
+                        <div class="site-buttons">
+                            <div class="d-flex flex-row flex-wrap">
+                                <a href="#hireMe"><button type="button" class="btn button primary-button mr-4 text-uppercase">Hire
+                                    me</button></a>
+                                <a href="#seeMyWork"><button type="button" class="btn button secondary-button text-uppercase">See My Work</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 banner-image">
+                        <!--<img src="./img/front.jpg" alt="Welcome image" class="img-fluid">-->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  ======================= End Banner Area =======================  -->
+
+        <!--  ========================= About Area ==========================  -->
+
+        <section id="about-me" class="about-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="about-image">
+                            <img src="./img/me.jpg" alt="Katarina" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 about-title">
+                        <h2 class="text-uppercase">
+                            <span>Let me</span>
+                            <span>introduce</span>
+                            <span>myself</span>
+                        </h2>
+                        <div class="paragraph py-4 w-75">
+                            <p id="resume" class="para">
+                                I am a <bold>User Researcher & Experience Designer</bold> with a master’s degree in applied ethnography, currently studying UX Design at EC Utbildning in Malmö. I am passionate and skilled about uncovering actionable insights through user research and testing. I used to work as a florist but now I aim to take root in digital experiences. 
+                            </p>
+                            <p class="para">
+                                I look for a UX Design <bold>internship in spring 2021</bold> to sharpen my prototyping skills on real design projects.
+                            </p>
+                        </div>
+                        <a href="./img/Resume_Katarina_Skarbova.pdf" download target="blank"><button type="button" class="btn button primary-button text-uppercase">Download CV</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  ========================= End About Area ==========================  -->
+
+
+        <!--  ======================= My work area =============================  -->
+
+        <section id="my-work" class="project-area">
+            <div class="container">
+                <div class="project-title pb-5">
+                    <h1 class="text-uppercase title-text" id="seeMyWork">My UX Work</h1>
+                </div>
+
+                <div class="button-group">
+                    <button type="button" class="active" id="btn1" data-filter="*">All</button>
+                    <button type="button" data-filter=".teamwork">Teamwork</button>
+                    <button type="button" data-filter=".individual">Individual</button>
+                    <button type="button" data-filter=".upcoming">Upcoming</button>
+                    <button type="button" data-filter=".playground">Playground</button>
+                </div>
+
+                <div class="row grid">
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item individual">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p1.png">
+                                    <img src="./img/portfolio/p1.png" alt="portfolio-1" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">PIXER</h4>
+                                <span class="text-secondary">Mobile phone app for dating where users match based on interests rather than photos</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item teamwork">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p2.png">
+                                    <img src="./img/portfolio/p2.png" alt="portfolio-2" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">REACH</h4>
+                                <span class="text-secondary">Interactive mobile app helping relatives of people with eating disorders</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item teamwork">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p3.png">
+                                    <img src="./img/portfolio/p3.png" alt="portfolio-3" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">LightMyDay</h4>
+                                <span class="text-secondary">Smart set of lamps for people who are separated with a distance to help them stay in touch</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item teamwork">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p4.png">
+                                    <img src="./img/portfolio/p4.png" alt="portfolio-4" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Hot Yoga Malmö</h4>
+                                <span class="text-secondary">App redesign, Design Sprint</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item playground">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p5.png">
+                                    <img src="./img/portfolio/p5.png" alt="portfolio-5" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Greenhouse project</h4>
+                                <span class="text-secondary">Video prototype, Concept development</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p6.jpg">
+                                    <img src="./img/portfolio/p6.jpg" alt="portfolio-6" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Upcoming project</h4>
+                                <span class="text-secondary">Upcoming, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item teamwork">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p7.jpg">
+                                    <img src="./img/portfolio/p7.jpg" alt="portfolio-7" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">UpForIt</h4>
+                                <span class="text-secondary">Mobile app for learning new skills with others during isolation, Double Diamond Design Process</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item playground">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p8.jpg">
+                                    <img src="./img/portfolio/p8.jpg" alt="portfolio-8" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Politics for Everyone</h4>
+                                <span class="text-secondary">High Fidelity Prototype, Concept Development</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item playground">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p9.jpg">
+                                    <img src="./img/portfolio/p9.jpg" alt="portfolio-9" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Skånetrafiken</h4>
+                                <span class="text-secondary">Storyboards, User Research</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item individual">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p1.jpg">
+                                    <img src="./img/portfolio/p1.jpg" alt="portfolio-1" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Uppåkra</h4>
+                                <span class="text-secondary">Strategic development of archaeological foundation, Ethnographic Fieldwork</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  ======================= End my work area =============================  -->
+
+        <!--  ====================== Methods and Skills Area =============================  -->
+
+        <section id="my-skills" class="services-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center services-title">
+                        <h1 class="text-uppercase title-text">My methods and top skills</h1>
+                        <!--p class="para">
+                            Look through the section where I highlighted my top skills.
+                        For more details, read through the projects I worked on in My Work section.
+                        </p>-->
+                    </div>
+                </div>
+                <div class="container services-list">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                                <div class="sevices-img text-center py-4">
+                                    <img src="./img/skills/s1.svg" alt="Skill-area-1">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-lato">Ethnography</h5>
+                                    <p class="card-text text-secondary">
+                                        Interviewing, Observation, Heuristic evaluation
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                                <div class="sevices-img text-center py-4">
+                                    <img src="./img/skills/s2.svg" alt="Skill-area-2">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-lato">UX/UI Design</h5>
+                                    <p class="card-text text-secondary">
+                                       	Balsamiq, Adobe XD, Figma, MIRO
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                                <div class="sevices-img text-center py-4">
+                                    <img src="./img/skills/s3.svg" alt="Skill-area-3">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-lato">Creative Coding</h5>
+                                    <p class="card-text text-secondary">
+                                        HTML, CSS, JavaScript, Arduino and Processing, GIT
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                                <div class="sevices-img text-center py-4">
+                                    <img src="./img/skills/s4.svg" alt="Skill-area-4">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-lato">Agile mindset</h5>
+                                    <p class="card-text text-secondary">
+                                        SCRUM, Kanban
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  ====================== End methods and skills area =============================  -->
+
+
+    </main>
+    <!--  ======================= End Main Area ================================ -->
+
+    <!--  ======================= Start Contact Area =======================  -->
+
+    <footer id="contact"  class="footer-area">
+    	<h1 class="text-uppercase title-text" id="seeMyWork" >Contact</h1>
+    	<img src="./img/malmoKarta.png" alt="map of Malmo" id="map">
+        <div class="container">
+
+            <div class="">
+            	<img src="./img/letsConnect.svg" alt="let's connect" id="hireMe">
+            
+                
+                <div class="social text-center">
+                    
+                    <a href="https://www.linkedin.com/in/katarina-skarbova/" target="blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/katarina.skarbova/" target="blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/katarinaskarbova/" target="blank"><i class="fab fa-instagram"></i></a>
+                    <a href="mailto: k.skarbova@gmail.com"><i class="far fa-envelope"></i></a>
+                 
+                </div>
+                <div class="copyrights text-center">
+                    <p class="para">
+                        ©2021 | Katarina Skarbova
+                        <!-- Credits to Daily Tuition https://www.youtube.com/watch?v=dgKSqz3it50&t=153s&ab_channel=DailyTuition -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--  ======================= End Contact Area =======================  -->
+
+
+    <!--  Jquery js file  -->
+    <script src="./js/jquery.3.4.1.js"></script>
+
+    <!--  Bootstrap js file  -->
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!--  isotope js library  -->
+    <script src="./vendor/isotope/isotope.min.js"></script>
+
+    <!--  Magnific popup script file  -->
+    <script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+
+    <!--  Owl-carousel js file  -->
+    <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
+
+    <!--  custom js file  -->
+    <script src="./js/main.js"></script>
+
+
+</body>
+
+</html>
