@@ -247,8 +247,18 @@ footer.footer-area .social a > i:hover {
     max-width: 100%;
 }
 
-
 @media only screen and (max-width: 425px)
 .site-main .site-banner {
     max-width: 100%;
 }
+
+@media only screen and (max-width: 375px)
+.site-main .site-banner {
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 320px)
+.site-main .site-banner {
+    max-width: 100%;
+}
+
